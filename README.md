@@ -8,4 +8,8 @@ A tárgy lényeges pontjai:
 - HTML kód készítés
 - JavaScirpt
 - Szerver a felhőben
+  - Google
+  - Amazon
+  - Microsoft
+  - egyéb
 - stb.
