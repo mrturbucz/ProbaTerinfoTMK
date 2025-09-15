@@ -7,4 +7,5 @@ A tárgy lényeges pontjai:
 - git ismeretek
 - HTML kód készítés
 - JavaScirpt
+- Szerver a felhőben
 - stb.
