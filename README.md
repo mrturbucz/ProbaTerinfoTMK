@@ -1,2 +1,2 @@
-# ProbaTerinfo
-Térinformatikai alkalmazások című kurzus próbája 2025
+# Térinformatikai alkalmazások próba repozitórium
+Térinformatikai alkalmazások című kurzus 2025/26-os tanév első félévében futó kurzusának próbája.
