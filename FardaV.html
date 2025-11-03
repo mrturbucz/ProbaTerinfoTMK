@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Az oldal nyitó tag-je -->
+<HTML>
+<!-- Fejléc -->
+<HEAD>
+<TITLE>Rólam</TITLE>
+<!-- a karakterkódolást megadó tag -->
+<meta charset="utf-8">
+</HEAD>
+<!-- Az oldal törzse -->
+<BODY>
+<!-- Címsor1 -->
+<h1>Bemutatkozás</h1>
+<!-- Megjelenő szöveg -->
+<p>Ne tudd meg ki vagyok!</p>
+<h1>Magamról</h1>
+<h2>Kedvteléseim</h2>
+<!-- Lista rendezetlen -->
+<ul>
+<li>Lustálkodás</li>
+<li>Sétálgatás</li>
+</ul>
+<h2>Gyermekeim</h2>
+<!-- Lista rendezett példa -->
+<ol>
+<li>Kincső</li>
+<li>Regő</li>
+<li>Hanga</li>
+<li>Emese</li>
+<li>Iringó</li>
+<li>Filó</li>
+</ol>
+<h2>Kedvenc színem</h2>
+<!-- Gomb létrehozása a klikkelésre javascirptet futtat. -->
+<button type="button" onclick="document.getElementById('demo').innerText = 'Kék.'">Mi lehet a kedvenc színem?</button>
+<!-- Bekezdés, azonosítóval (id) ellátva -->
+<p id="demo">Kitalálod?</p>
+
+<h1>Első JavaScript függvényem</h1>
+
+<p>Függvénnyel változtatom meg a következő szöveget:</p>
+
+<button type="button" onclick="myFunction()">Kattints!</button>
+
+<p id="demo1">Ez a szöveg fog megváltozni.</p>
+
+<script>
+function myFunction() { 
+  document.getElementById("demo1").innerHTML = "Ez a JavaScript függvény hatása!";
+}
+</script>
+</BODY>
+</HTML>
